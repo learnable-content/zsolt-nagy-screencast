@@ -9,6 +9,9 @@ module.exports = {
         path: DIST_PATH,   
         filename: 'bundle.js' 
     },  
+    resolve: {
+        extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js']
+    },
     module: {
         loaders: [
         	{
